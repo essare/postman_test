@@ -12,8 +12,31 @@
 				"disableBodyPruning": true
 			},
 			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "hello google",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "https://google.com"
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"id": "973732c3-c46f-40d6-a7bd-460a984966e0",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
 				"method": "GET",
-				"header": []
+				"header": [],
+				"url": "https://postman-echo.com"
 			},
 			"response": []
 		}
